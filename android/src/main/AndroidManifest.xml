@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.qkd.kdplayer">
+    <!--  Permissions for the plugin  -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--  Services for the plugin  -->
+    <application android:usesCleartextTraffic="true">
+        <service android:name=".KDPlayerService"/>
+    </application>
+</manifest>

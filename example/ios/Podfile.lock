@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - kdplayer (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - kdplayer (from `.symlinks/plugins/kdplayer/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  kdplayer:
+    :path: ".symlinks/plugins/kdplayer/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  kdplayer: bb7e37136a8b1155b48fbbbd89677c7f1013e92f
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.2
